@@ -319,7 +319,7 @@ module.exports = function (grunt) {
         },
         'gh-pages': {
           options: {
-            base: 'sites'
+            base: 'dist'
           },
           src: ['**']
         }
